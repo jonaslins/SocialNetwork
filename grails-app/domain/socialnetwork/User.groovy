@@ -4,20 +4,21 @@ class User {
 
     String firstName
     String lastName
-    String nickName
+    String userName
     String email
-//    String password
+    String password
     Date birthday
 
-    static hasMany = [friends:User, posts:Post]
+    static hasMany = [friends:User, posts: Post]
 
     static constraints = {
 
         firstName blank:false
         lastName blank: false
-        nickName unique:true, blank: false
+        userName unique:true, blank: false
         email (blank: false, email: true)
         birthday blank: false
+        password minSize: 5
 
     }
 

@@ -1,0 +1,23 @@
+.sidebar {
+    background-color: #DDFFDD;
+    padding: 10px;
+}
+
+.post-textarea{
+    height: 50px;
+    margin-bottom: 1em;
+}
+
+.post0 {
+    background-color: #CCC;
+    position: relative;
+    margin-bottom: 1em;
+    padding: 1.5em;
+}
+
+.post1 {
+    background-color: #EEE;
+    position: relative;
+    margin-bottom: 1em;
+    padding: 1.5em;
+}
